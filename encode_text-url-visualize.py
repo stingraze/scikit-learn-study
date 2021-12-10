@@ -32,6 +32,7 @@ print(vector2.shape)
 print(type(vector2))
 print(vector2.toarray())
 
+#Visualize 1st vector and second vector
 plt.spy(vector)
 plt.figure(0)
 plt.spy(vector2)
