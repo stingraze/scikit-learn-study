@@ -2,10 +2,7 @@
 #This code visualizes text and URL pair as a vector with matplotlib.
 #Original code by Jason Brownlee, code edited by Tsubasa Kato (@_stingraze on Twitter) on December 10th, 2021
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.decomposition import PCA
-from sklearn.decomposition import TruncatedSVD
 import matplotlib.pylab as plt
-import scipy.sparse as sparse
 
 # list of text documents
 text = ["The quick brown fox jumped over the lazy dog."]
